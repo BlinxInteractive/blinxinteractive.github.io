@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blinx Interactive</title>
+<meta name="description" content="Blinx Interactive makes cosy games, starting with Pawventure.">
+<link rel="icon" href="pawventure/icon.png">
+<style>
+  :root { --bg: #fff8f1; --ink: #4a2618; --soft: #8a4e36; --card: #fff; --line: #f0dccb; --accent: #c25a26; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 system-ui, -apple-system, 'Segoe UI', sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 60px; }
+  h1 { font-size: 32px; margin: 0 0 4px; }
+  .tag { color: var(--soft); margin: 0 0 32px; }
+  .game { display: flex; gap: 18px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 18px; }
+  .game img { width: 96px; height: 96px; border-radius: 22px; flex: none; }
+  .game h2 { margin: 0 0 4px; font-size: 22px; }
+  .game p { margin: 0 0 8px; }
+  a { color: var(--accent); }
+  footer { margin-top: 40px; color: var(--soft); font-size: 15px; }
+  @media (max-width: 420px) { .game { flex-direction: column; text-align: center; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Blinx Interactive</h1>
+  <p class="tag">Cosy games, made with care.</p>
+
+  <section class="game">
+    <img src="pawventure/icon.png" alt="Pawventure icon">
+    <div>
+      <h2>Pawventure</h2>
+      <p>Join Rui the red panda on a roguelite adventure: pick skills, hatch pets and battle cute monsters through eight chapters.</p>
+      <p><a href="pawventure/privacy.html">Privacy policy</a></p>
+    </div>
+  </section>
+
+  <footer>Contact: <a href="mailto:blinxinteractive@gmail.com">blinxinteractive@gmail.com</a></footer>
+</main>
+</body>
+</html>
